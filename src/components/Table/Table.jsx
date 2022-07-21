@@ -3,72 +3,59 @@ import { Table } from 'antd';
 
 const columns = [
   {
-    title: 'Full Name',
+    title: '№',
     width: 100,
-    dataIndex: 'name',
-    key: 'name',
+    dataIndex: 'number',
+    key: 'number',
     fixed: 'left',
   },
   {
-    title: 'Age',
+    title: 'Номер машины',
     width: 100,
-    dataIndex: 'age',
-    key: 'age',
+    dataIndex: 'car',
+    key: 'car',
     fixed: 'left',
   },
   {
-    title: 'Column 1',
-    dataIndex: 'address',
+    title: 'ФИО водителя',
+    dataIndex: 'driver',
     key: '1',
   },
   {
-    title: 'Column 2',
-    dataIndex: 'address',
+    title: 'Погрузка',
+    dataIndex: 'cargo',
     key: '2',
   },
   {
-    title: 'Column 3',
-    dataIndex: 'address',
+    title: 'Разгрузка',
+    dataIndex: 'loadout',
     key: '3',
-  },
-  {
-    title: 'Column 4',
-    dataIndex: 'address',
-    key: '4',
-  },
-  {
-    title: 'Column 5',
-    dataIndex: 'address',
-    key: '5',
-  },
-  {
-    title: 'Column 6',
-    dataIndex: 'address',
-    key: '6',
-  },
-  {
-    title: 'Column 7',
-    dataIndex: 'address',
-    key: '7',
-  },
-  {
-    title: 'Column 8',
-    dataIndex: 'address',
-    key: '8',
   },
 ];
 const data = [
   {
+    number: 1,
     key: '1',
-    name: 'John Brown',
-    age: 32,
-    address: 'New York Park',
+    car: 'Л227АБ',
+    driver: 'Иванов Иван Иванович',
+    cargo: 'Красногорск',
+    loadout: 'Одинцово',
   },
   {
+    number: 2,
     key: '2',
-    name: 'Jim Green',
-    age: 40,
-    address: 'London Park',
+    car: 'E225ОВ',
+    driver: 'Петров Петр Петрович',
+    cargo: 'Одинцово',
+    loadout: 'Зеленоград',
+  },
+  {
+    number: 3,
+    key: '3',
+    car: 'Я315КИ',
+    driver: 'Сидоров Александр Александрович',
+    cargo: 'Зеленоград',
+    loadout: 'Мытищи',
   },
 ];
 

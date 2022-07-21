@@ -1,6 +1,7 @@
 import Split from 'react-split';
 import s from './ResizableScreen.module.css';
 import LogisticTable from '../Table';
+import Map from '../Map';
 
 const ResizableScreen = () => {
   return (
@@ -16,7 +17,9 @@ const ResizableScreen = () => {
       <div className={s.screen}>
         <LogisticTable />
       </div>
-      <div className={s.screen}></div>
+      <div className={s.screen}>
+        <Map />
+      </div>
     </Split>
   );
 };
